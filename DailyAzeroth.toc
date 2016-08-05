@@ -1,0 +1,9 @@
+## Interface: 60100
+## Title: DailyAzeroth
+## Notes: A shiny tracking list for WoW tasks!
+## Author: @Kruithne
+## Version: 1.2.8
+## SavedVariables: DailyAzerothData
+DailyAzeroth.lua
+DailyAzerothIcons.lua
+DailyAzeroth.xml
