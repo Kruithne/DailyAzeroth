@@ -1,3 +1,5 @@
+** Version 1.3.0 **
+* Coming soon.
 
 ** Version 1.2.8 **
 * Reduced footprint of tag-tracking to prevent FPS drops during intense combat.
