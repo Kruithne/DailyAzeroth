@@ -485,7 +485,7 @@
                     </Layer>
                 </Layers>
                 <Frames>
-                    <Frame name="DailyAzerothCreationPanel" hidden="true" toplevel="true" frameStrata="MEDIUM" enableMouse="true">
+                    <Frame name="DailyAzerothCreationPanel" hidden="true" toplevel="true" frameStrata="HIGH" enableMouse="true">
                         <Size>
                             <AbsDimension x="610" y="306"/>
                         </Size>
