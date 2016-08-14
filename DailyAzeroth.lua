@@ -468,13 +468,13 @@ end
 
 function DailyAzeroth_ClickFilterDropdown(self, arg1, arg2, checked)
 	if not checked then
-		UIDropDownMenu_SetSelectedValue(UIDROPDOWNMENU_OPEN_MENU, self.value);
+		UIDropDownMenu_SetSelectedValue(UIDropDownMenu_GetCurrentDropDown(), self.value);
 	end
 end
 
 function DailyAzeroth_ClickAutoCompleteDropdown(self, arg1, arg2, checked)
 	if not checked then
-		UIDropDownMenu_SetSelectedValue(UIDROPDOWNMENU_OPEN_MENU, self.value);
+		UIDropDownMenu_SetSelectedValue(UIDropDownMenu_GetCurrentDropDown(), self.value);
 		CreationPanel.Fields.ACValue:SetText(autoCompleteTypes[self.value]);
 	end
 end
@@ -484,7 +484,7 @@ local iconPickSelected = nil;
 
 function DailyAzeroth_ClickIconDropdown(self, arg1, arg2, checked)
 	if not checked then
-		UIDropDownMenu_SetSelectedValue(UIDROPDOWNMENU_OPEN_MENU, self.value);
+		UIDropDownMenu_SetSelectedValue(UIDropDownMenu_GetCurrentDropDown(), self.value);
 		iconPickSelected = self.value;
 		iconPickOffset = 1;
 		selectedIconIndex = 0;
