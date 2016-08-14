@@ -1,9 +1,11 @@
 ## Interface: 70000
 ## Title: DailyAzeroth
 ## Notes: A shiny tracking list for WoW tasks!
-## Author: @Kruithne
+## Author: Kruithne
 ## Version: 1.3.0
 ## SavedVariables: DailyAzerothData
 DailyAzeroth.lua
 DailyAzerothIcons.lua
 DailyAzeroth.xml
+
+## X-Contributors: Lillpapps

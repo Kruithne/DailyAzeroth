@@ -1,5 +1,5 @@
 ** Version 1.3.0 **
-* Coming soon.
+* Fixed to work with 7.0.3. Credit to Lillpapps for the fix.
 
 ** Version 1.2.8 **
 * Reduced footprint of tag-tracking to prevent FPS drops during intense combat.
